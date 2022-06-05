@@ -9,17 +9,25 @@ var swiper = new Swiper(".bike-slider", {
     },
 autoplay:{
   delay:5000,
-  clickable:true,
+  disableOnInteraction:false,
 },
 
     breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
+      380: {
+        slidesPerView: 1,
+        spaceBetween: 10,
       },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 40,
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      510: {
+        slidesPerView: 2,
+        spaceBetween: 10,
+      },
+      758: {
+        slidesPerView: 3,
+        spaceBetween: 15,
       },
       900: {
         slidesPerView: 4,

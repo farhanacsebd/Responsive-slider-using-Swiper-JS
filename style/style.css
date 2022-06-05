@@ -58,6 +58,12 @@ body{
     margin-bottom: 4rem;
 }
 
+.bike-box:hover{
+    box-shadow: 0 4px 16px hsla(355deg 25% 15% / 10%);
+    transition: 0.3s all ease-in-out;
+}
+
+
 .box-img{
     max-width: 100%;
     width: 100%;
@@ -148,4 +154,17 @@ body{
 .book-btn:hover{
     background: var(--second-color);
     transition: 0.3s all linear;
+}
+
+/* Making responsive */
+@media (max-width:1064px) {
+    .bike-container{
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+@media (max-width:400px) {
+    .bike-container h1{
+       font-size: 1rem;
+    }
 }
